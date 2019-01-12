@@ -1,0 +1,102 @@
+.parent-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-header{
+    background-color: rgb(19, 19, 15);
+    color: white;
+    text-align: center;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.menu{
+    text-align: center;
+    background-color:blue;
+}
+.product-list{
+    padding: 0% 15%;
+    display: flex;
+    flex-direction: column;
+}
+.product-header{
+    display: flex;
+    flex-direction: row;
+}
+.product-header-title{
+    display: flex;
+    flex: 3;
+    align-items: center;
+}
+.product-header-more{
+    flex:0.5;
+    margin: 2%;
+    border-radius: 15px;
+}
+.brand-icon{
+    display: flex;
+    flex-direction: row;  
+    align-items: baseline;  
+}
+.brand-name{
+    flex: 4;
+}
+.fab-button{
+    display: flex;
+    flex: 1;
+}
+.fab:hover{
+    background-color: red;
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button-cart:hover{
+    background-color: black;
+    color: white;
+}
+.button-cart{
+    background-color: #F6C40C;
+    color: white;
+    border-radius: 15px;
+}
+.footer{
+    flex-direction: row;
+    display: flex;
+    padding: 0% 15%;
+}
+.contact-about{
+    flex: 1;
+    margin: 2%;
+    display: flex;
+}
+.contact-table{
+    flex: 1;
+}
+td{
+    cursor: pointer;
+}
+.table-title{
+    justify-content: flex-start;
+}
+.code-icon{
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.code{
+    flex: 1;
+}
+.icon{
+    flex: 1;
+}
+.fb:hover{
+    background-color: red;
+    color: white;
+}
